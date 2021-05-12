@@ -1,0 +1,207 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 20px 10px;
+    background-color: #00ffff;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+
+nav .brand {
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+
+.user-snippet {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+}
+
+.user-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.user-info img {
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.user-info a {
+    text-decoration: none;
+    color: #444;
+    margin-right: 5px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.muted {
+    color: gray;
+    font-size: 13px;
+}
+
+.muted i {
+    margin-left: 5px;
+}
+
+.post-title {
+   padding: 0px 10px; 
+}
+
+.post-title h1 {
+    line-height: 0.9;
+}
+
+.post-title a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+}
+
+.post-body {
+    padding: 20px 10px;
+    color: #444;
+    line-height: 1.5;
+}
+
+.post-body img {
+    width: 100%;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+.post-tags {
+    list-style: none;
+    margin-top: 10px;
+
+}
+
+.post-tags > li {
+    display: inline-block;
+    margin-right: 5px;
+    color: gray;
+    font-size: 14px;
+}
+
+.post-actions {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 20px;
+    padding: 10px 20px;
+    border-top: 2px solid #dcdcdc;
+    border-bottom: 2px solid #dcdcdc;
+    font-size: 14px;
+    color: #000;
+    font-weight: 700;
+}
+
+.post-actions i {
+    color: aquamarine;
+}
+
+.audio-container {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.audio-container audio{
+    width: 300px;     
+}
+
+
+.comments-container .comment {
+    margin: 0px 20px 30px;
+}
+
+.comments-container .user-snippet {
+    padding: 20px 0px;
+}
+
+.comments-container .fa-reply {
+    color: aqua;
+}
+
+.comments-container .comment-body {
+    color: #444;
+    line-height: 1.5;
+    
+}
+
+.comments-container .comment-body .audio-container{
+    margin-top: 20px;
+    text-align: left;
+}
+
+.comments-container blockquote {
+    margin-left: 25px;
+    border-left: 4px solid aqua;
+    padding-top: 0px;
+    padding-left: 15px;
+    font-size: 14px;
+}
+
+.comments-container blockquote .user-snippet {
+    padding: 0px;
+    margin-top: 18px;
+}
+
+.comments-container hr {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    width: inherit;
+    height: 2px;
+    background-color: #dcdcdc;
+}
+
+
+.comment-input-pane {
+    margin-top: 50px;
+    background-color: aqua;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+
+.comment-input-pane input[type='text'] {
+    background-color: inherit;
+    height: inherit;
+    font-weight: 900;
+    color: #444;
+    outline: none;
+    border: none;
+    padding-left: 22px;
+}
+
+.comment-input-pane button {
+    background-color: inherit;
+    border: none;
+}
+
+.comment-input-pane .fa-expand-arrows-alt {
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
